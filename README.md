@@ -13,7 +13,7 @@ End users can search jobs and companies by search criterias. Also admin users ca
 ### How to run test
 - At root directory, run command `npm test` at your terminal
 
-### Notable technoligies with the project
+### Notable technologies with the project
 - Express.js
 - PostgreSQL
 - Jest/test
