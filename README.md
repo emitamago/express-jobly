@@ -18,4 +18,7 @@ End users can search jobs and companies by search criterias. Also admin users ca
 - PostgreSQL
 - Jest/test
 
+### Travis
+[![Build Status](https://travis-ci.com/emitamago/express-jobly.svg?branch=master)](https://travis-ci.com/emitamago/express-jobly)
+
 ## Thank you!
