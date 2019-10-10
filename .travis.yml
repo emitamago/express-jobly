@@ -4,7 +4,7 @@ node_js:
 services:
   - postgresql
 before_script:
-  - psql -c 'create database "jobly-test;' -U postgres
+  - psql -c 'create database jobly-test;' -U postgres
   - psql < data.sql
 env:
   - NODE_ENV=test
