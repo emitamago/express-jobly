@@ -3,5 +3,5 @@ node_js:
   - "node"
 services:
   - postgresql
-  before_install:
+before_install:
   - psql < data.sql 
