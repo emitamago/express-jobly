@@ -1,6 +1,4 @@
 ## Jobly
-### Travis
-[![Build Status](https://travis-ci.com/emitamago/express-jobly.svg?branch=master)](https://travis-ci.com/emitamago/express-jobly)
 
 ### About 
 This application is job searching backend API using Express.js/Node.js which is connected PostgreSOL as database.
@@ -19,5 +17,8 @@ End users can search jobs and companies by search criterias. Also admin users ca
 - Express.js
 - PostgreSQL
 - Jest/test
+
+### TRAVIS CI
+[![Build Status](https://travis-ci.com/emitamago/express-jobly.svg?branch=master)](https://travis-ci.com/emitamago/express-jobly)
 
 ## Thank you!
