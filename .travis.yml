@@ -3,5 +3,8 @@ node_js:
   - "node"
 services:
   - postgresql
-before_install:
-  - psql < data.sql 
+before_script:
+  - psql -c 'create database "jobly-test;' -U postgres
+  - psql < data.sql
+env:
+  - NODE_ENV=test
